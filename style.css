@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 :root{
     --color1: white;
     --color2: black;
@@ -10,6 +12,8 @@ body{
     flex-direction: column;
     justify-content: center;
     margin: 2.5%;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: lighter;
 }
 
 header{
@@ -61,7 +65,7 @@ nav{
 button{
     color: black;
     background-color: #757FD8;
-    border-radius: 30%;
+    border-radius: 20px;
     border: none;
     height: 30px;
 }
@@ -153,5 +157,9 @@ p{
 }
 
 .sobremi{
+    width: 100%;
+}
+
+.letrasSobreMi{
     width: 100%;
 }
