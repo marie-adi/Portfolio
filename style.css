@@ -56,13 +56,13 @@ nav{
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
-    
 }
 
 button{
     color: black;
     background-color: #757FD8;
     border-radius: 30%;
+    border: none;
     height: 30px;
 }
 
@@ -121,7 +121,13 @@ p{
 }
 
 .fondoImagen-proyecto img{
-    width: 90%;
+    width: 80%;
+    border-radius: 5%;
+    margin-left: 10%;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .letrasProyecto{
@@ -138,4 +144,14 @@ p{
 
 .letrasProyecto p{
     margin: 1rem 0;
+}
+
+.containerSobremi {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sobremi{
+    width: 100%;
 }
