@@ -1,0 +1,141 @@
+:root{
+    --color1: white;
+    --color2: black;
+    --color3: #757FD8;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2.5%;
+}
+
+header{
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+    width: 100%;
+}
+
+.link{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin: right 2.5%;
+}
+
+.link ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+    list-style-type: none;
+    width:100%;
+    justify-content: center;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorHome{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+button{
+    color: black;
+    background-color: #757FD8;
+    border-radius: 30%;
+    height: 30px;
+}
+
+h2{
+    color: white;
+    font-size: 400%;
+}
+
+p{
+    color:white;
+}
+
+.textoHome{
+    width:50%;
+}
+
+.imagenHome{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.imagenHome img{
+    width: 250px;
+    height: 250px;
+}
+
+h3{
+    color: white;
+    font-size: 200%;
+}
+
+p{
+    font-size: 150%;
+}
+
+.contenedor-proyecto{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+.fondoImagen-proyecto{
+    background-color: rgba(255, 255, 255, 0.26);
+    width: 40%;
+    border-radius: 5%;
+    margin-left: 5%;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fondoImagen-proyecto img{
+    width: 90%;
+}
+
+.letrasProyecto{
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.letrasProyecto h3{
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+
+.letrasProyecto p{
+    margin: 1rem 0;
+}
