@@ -12,8 +12,6 @@ body{
     flex-direction: column;
     justify-content: center;
     margin: 2.5%;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: lighter;
 }
 
 header{
@@ -30,6 +28,7 @@ nav{
     justify-content: space-between;
     font-size: 25px;
     width: 100%;
+    font-weight: 100;
 }
 
 .link{
@@ -70,13 +69,23 @@ button{
     height: 30px;
 }
 
+h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 100;
+}
+
 h2{
     color: white;
     font-size: 400%;
+    font-weight: 100;
+    font-family: "Bebas Neue", sans-serif;
 }
 
 p{
     color:white;
+    font-weight: 100;
+    font-size: 150%;
+    font-family: "Manrope", sans-serif;
 }
 
 .textoHome{
@@ -97,10 +106,12 @@ p{
 h3{
     color: white;
     font-size: 200%;
+    font-weight: 100;
+    font-family: "Bebas Neue", sans-serif;
 }
 
-p{
-    font-size: 150%;
+strong{
+    font-weight: 100;
 }
 
 .contenedor-proyecto{
