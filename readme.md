@@ -1,3 +1,3 @@
 ## portfolio
 
-portfolio personal para practicar html y css
+portfolio personal para practicar html y css.
