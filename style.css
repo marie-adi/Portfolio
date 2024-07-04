@@ -6,12 +6,18 @@
     --color3: #757FD8;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     background-color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 2.5%;
+    margin: 0;
 }
 
 header{
@@ -19,6 +25,8 @@ header{
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-left: 2.5%;
+    margin-right: 5%;
 }
 
 nav{
@@ -35,7 +43,7 @@ nav{
     display: flex;
     flex-direction: row;
     width: 50%;
-    margin: right 2.5%;
+    margin: right 10%;
 }
 
 .link ul{
@@ -47,6 +55,11 @@ nav{
     justify-content: center;
 }
 
+.containerGeneralHome{
+    width: 100%;
+    display: flex;
+    background-color: #100810;
+}
 .container{
     width: 100%;
     display: flex;
@@ -54,7 +67,6 @@ nav{
 }
 
 .contenedorHome{
-    color: black;
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -63,7 +75,7 @@ nav{
 
 button{
     color: black;
-    background-color: #757FD8;
+    background-color: #52528C;
     border-radius: 20px;
     border: none;
     height: 30px;
@@ -90,12 +102,14 @@ p{
 
 .textoHome{
     width:50%;
+    margin: 2.5%
 }
 
 .imagenHome{
     width: 50%;
     display: flex;
     justify-content: flex-end;
+    margin: 2.5%
 }
 
 .imagenHome img{
@@ -114,6 +128,14 @@ strong{
     font-weight: 100;
 }
 
+.proyectos{
+    margin: 2.5%
+}
+
+.container2{
+    background-color: #231123;
+}
+
 .contenedor-proyecto{
     display: flex;
     flex-direction: row;
@@ -121,7 +143,7 @@ strong{
     height: 100%;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 3%;
+    margin-bottom: 3%;  
 }
 
 .fondoImagen-proyecto{
@@ -165,12 +187,32 @@ strong{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    background-color: #372554;
 }
 
 .sobremi{
     width: 100%;
+    color: black;
+    margin: 2.5%
 }
 
 .letrasSobreMi{
     width: 100%;
+    margin: 2.5%
+}
+
+.conectemos{
+    background-color: #52528C;
+}
+
+.conectemosLetras{
+    margin: 2.5%
+}
+
+.conectemosFormulario{
+    margin: 2.5%
+}
+
+.celdasFormulario{
+    
 }
